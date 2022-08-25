@@ -14,7 +14,7 @@ if __name__ == '__main__':
     l_av = len(av) - 1
 
     if l_av > 1:
-        print("{:d} arguments.".format(l_av))
+        print(l_av, 'arguments:')
         for i in range(1, l_av + 1):
             print('{:d}: {}'.format(i, av[i]))
     elif l_av == 1:
